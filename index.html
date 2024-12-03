@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Computer</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Monte seu Computador</h1>
+    </header>
+    <main>
+        <form id="pc-builder">
+            <label for="cpu">Selecione o Processador:</label>
+            <select id="cpu">
+                <!-- Basico -->
+                <option value="Intel Celeron G6900">Intel Celeron G6900</option>
+                <option value="AMD Athlon 3000G ">AMD Athlon 3000G </option>
+                <option value="Intel Pentium Gold G7400">Intel Pentium Gold G7400</option>
+                <!-- intermediario -->
+                <option value="Intel Core i3-12100F">Intel Core i3-12100F</option>
+                <option value="AMD Ryzen 5 4500">AMD Ryzen 5 4500</option>
+                <option value="Intel Core i5-13400">Intel Core i5-13400</option>
+                 <!-- Avançado -->
+                <option value="AMD Ryzen 7 5800X">AMD Ryzen 7 5800X</option>
+                <option value="Intel Core i7-13700K">Intel Core i7-13700K</option>
+                <option value="AMD Ryzen 9 7900X">AMD Ryzen 9 7900X</option>
+                 <!-- Hiperavançado -->
+                 <option value="Intel Core i9-13900K">Intel Core i9-13900K</option>
+                 <option value="AMD Ryzen Threadripper PRO 5965WX">AMD Ryzen Threadripper PRO 5965WX</option>
+                 <option value="Intel Xeon W9-3495X">Intel Xeon W9-3495X</option>
+            </select>
+            
+
+            <label for="placa-mae">Selecione a Placa-mae:</label>
+            <select id="placa-mae">
+                <option value="ASUS PRIME H610M-E D4">ASUS PRIME H610M-E D4</option>
+                <option value="Gigabyte B560M DS3H V2">Gigabyte B560M DS3H V2</option>
+                <option value="MSI PRO B760M-A DDR4">MSI PRO B760M-A DDR4</option>
+                <option value="ASRock Z690 Steel Legend DDR4">ASRock Z690 Steel Legend DDR4</option>
+                <option value="Gigabyte Z790 AORUS Elite AX">Gigabyte Z790 AORUS Elite AX</option>
+                <option value="ASUS ROG Maximus Z790 Hero">ASUS ROG Maximus Z790 Hero</option>
+                <!-- AMD -->
+                <option value="ASUS PRIME A320M-K">ASUS PRIME A320M-K</option>
+                <option value="MSI B450M PRO-VDH MAX">MSI B450M PRO-VDH MAX</option>
+                <option value="Gigabyte B550 AORUS Elite V2">Gigabyte B550 AORUS Elite V2</option>
+                <option value="ASUS ROG STRIX B550-F Gaming (Wi-Fi)">ASUS ROG STRIX B550-F Gaming (Wi-Fi)</option>
+                <option value="MSI MPG X670E Carbon WiFi">MSI MPG X670E Carbon WiFi</option>
+                <option value="ASUS Pro WS WRX80E-SAGE SE WiFi">ASUS Pro WS WRX80E-SAGE SE WiFi</option>
+            </select>
+
+            <label for="gpu">Selecione a Placa de Vídeo:</label>
+            <select id="gpu">
+                <option value="NVIDIA GeForce GT 1030 (2GB GDDR5)">NVIDIA GeForce GT 1030 (2GB GDDR5)</option>
+                <option value="AMD Radeon RX 550 (4GB GDDR5)">AMD Radeon RX 550 (4GB GDDR5)</option>
+                <option value="Intel Arc A380 (6GB GDDR6)">Intel Arc A380 (6GB GDDR6)</option>
+                <option value="NVIDIA GeForce GTX 1650 (4GB GDDR6)">NVIDIA GeForce GTX 1650 (4GB GDDR6)</option>
+                <option value="AMD Radeon RX 6600 (8GB GDDR6)">AMD Radeon RX 6600 (8GB GDDR6)</option>
+                <option value="NVIDIA GeForce RTX 3050 (8GB GDDR6)">NVIDIA GeForce RTX 3050 (8GB GDDR6)</option>
+                <option value="AMD Radeon RX 6700 XT (12GB GDDR6)">AMD Radeon RX 6700 XT (12GB GDDR6)</option>
+                <option value="NVIDIA GeForce RTX 3060 Ti (8GB GDDR6)">NVIDIA GeForce RTX 3060 Ti (8GB GDDR6)</option>
+                <option value="AMD Radeon RX 7800 XT (16GB GDDR6)">AMD Radeon RX 7800 XT (16GB GDDR6)</option>
+                <option value="NVIDIA GeForce RTX 4070 (12GB GDDR6X)">NVIDIA GeForce RTX 4070 (12GB GDDR6X)</option>
+                <option value="AMD Radeon RX 7900 XTX (24GB GDDR6)">AMD Radeon RX 7900 XTX (24GB GDDR6)</option>
+                <option value="NVIDIA GeForce RTX 4090 (24GB GDDR6X)">NVIDIA GeForce RTX 4090 (24GB GDDR6X)</option>
+                
+            </select>
+
+            <label for="ram">Selecione a Memória RAM:</label>
+            <select id="ram">
+                <option value="Kingston Fury Beast 8GB (3200MHz, DDR4)">Kingston Fury Beast 8GB (3200MHz, DDR4)</option>
+                <option value="Corsair Vengeance LPX 8GB (2666MHz, DDR4)">Corsair Vengeance LPX 8GB (2666MHz, DDR4)</option>
+                <option value="Crucial Ballistix 16GB (3200MHz, DDR4)">Crucial Ballistix 16GB (3200MHz, DDR4)</option>
+                <option value="Corsair Vengeance RGB Pro 16GB (2x8GB, 3600MHz, DDR4)">Corsair Vengeance RGB Pro 16GB (2x8GB, 3600MHz, DDR4)</option>
+                <option value="Kingston Fury Renegade 32GB (2x16GB, 3600MHz, DDR4)">Kingston Fury Renegade 32GB (2x16GB, 3600MHz, DDR4)</option>
+                <option value="G.Skill Ripjaws V 32GB (2x16GB, 4000MHz, DDR4)">G.Skill Ripjaws V 32GB (2x16GB, 4000MHz, DDR4)</option>
+                <option value="Kingston Fury Beast 16GB (5200MHz, DDR5)">Kingston Fury Beast 16GB (5200MHz, DDR5)</option>
+                <option value="Corsair Dominator Platinum RGB 32GB (2x16GB, 5200MHz, DDR5)">Corsair Dominator Platinum RGB 32GB (2x16GB, 5200MHz, DDR5)</option>
+                <option value="G.Skill Trident Z5 RGB 32GB (2x16GB, 6000MHz, DDR5)">G.Skill Trident Z5 RGB 32GB (2x16GB, 6000MHz, DDR5)</option>
+                <option value="Corsair Vengeance 64GB (2x32GB, 5600MHz, DDR5)">Corsair Vengeance 64GB (2x32GB, 5600MHz, DDR5)</option>
+                <option value="G.Skill Ripjaws S5 128GB (4x32GB, 6000MHz, DDR5)">G.Skill Ripjaws S5 128GB (4x32GB, 6000MHz, DDR5)</option>
+                <option value="Kingston Server Premier ECC 128GB (DDR4, 3200MHz)">Kingston Server Premier ECC 128GB (DDR4, 3200MHz)</option>
+            </select>
+
+            <label for="storage">Selecione o Armazenamento:</label>
+            <select id="storage">
+                <option value="SSD 256GB">SSD 256GB NVMe</option>
+                <option value="SSD 512GB">SSD 512GB</option>
+                <option value="HDD 1TB">HDD 1TB</option>
+                <option value="HDD 2TB">HDD 2TB</option>
+            </select>
+
+            <label for="fonte">Selecione a Fonte:</label>
+            <select id="fonte">
+                <option value="Corsair CV450 (450W, 80 Plus Bronze)">Corsair CV450 (450W, 80 Plus Bronze)</option>
+                <option value="EVGA 450 BR (450W, 80 Plus Bronze)">EVGA 450 BR (450W, 80 Plus Bronze)</option>
+                <option value="Cooler Master Elite V3 (500W, 80 Plus White)">Cooler Master Elite V3 (500W, 80 Plus White)</option>
+                <option value="Corsair VS550 (550W, 80 Plus White)">Corsair VS550 (550W, 80 Plus White)</option>
+                <option value="Gigabyte P650B (650W, 80 Plus Bronze)">Gigabyte P650B (650W, 80 Plus Bronze)</option>
+                <option value="EVGA 600 W1 (600W, 80 Plus White)">EVGA 600 W1 (600W, 80 Plus White)</option>
+                <option value="Corsair RM750x (750W, 80 Plus Gold)">Corsair RM750x (750W, 80 Plus Gold)</option>
+                <option value="easonic Focus GX-750 (750W, 80 Plus Gold)">easonic Focus GX-750 (750W, 80 Plus Gold)</option>
+                <option value="Cooler Master MWE Gold V2 (850W, 80 Plus Gold)">Cooler Master MWE Gold V2 (850W, 80 Plus Gold)</option>
+                <option value="Corsair RM1000x (1000W, 80 Plus Gold)">Corsair RM1000x (1000W, 80 Plus Gold)</option>
+                <option value="Seasonic Prime TX-1000 (1000W, 80 Plus Titanium)">Seasonic Prime TX-1000 (1000W, 80 Plus Titanium)</option>
+                <option value="EVGA SuperNOVA 1300 G+ (1300W, 80 Plus Gold)">EVGA SuperNOVA 1300 G+ (1300W, 80 Plus Gold)</option>
+                
+            </select>
+
+            <label for="gabinete">Selecione o Gabinete:</label>
+            <select id="gabinete">
+                <option value="Aerocool CS105">Aerocool CS105</option>
+                <option value="Cougar MG120-G">Cougar MG120-G</option>
+                <option value="Cooler Master MasterBox Q300L">Cooler Master MasterBox Q300L</option>
+                <option value="NZXT H7 Flow">NZXT H7 Flow</option>
+                <option value="Lian Li Lancool III">Lian Li Lancool III</option>
+            </select>
+
+            <button type="button" id="build-pc">Montar PC</button>
+        </form>
+
+        <div id="summary">
+            <h2>Configuração Final:</h2>
+            <ul id="configuration"></ul>
+            <img id="pc-image" src="" alt="Seu PC montado" hidden>
+        </div>
+    </main>
+    <script src="src/script.js"></script>
+</body>
+</html>
